@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#e74c3c"
+        android:id="@+id/c"
+        android:onClick="playC"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#e67e22"
+        android:id="@+id/d"
+        android:onClick="playD"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#f1c40f"
+        android:id="@+id/e"
+        android:onClick="playE"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#1abbc9"
+        android:id="@+id/f"
+        android:onClick="playF"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#6AEC32"
+        android:id="@+id/g"
+        android:onClick="playG"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#3498db"
+        android:id="@+id/a"
+        android:onClick="playA"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="#9b59b6"
+        android:id="@+id/b"
+        android:onClick="playB"/>
+
+
+
+</LinearLayout>
